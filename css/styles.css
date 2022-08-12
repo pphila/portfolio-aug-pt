@@ -1,3 +1,4 @@
+
 /*navbar Section*/
 .navbar {
   display: flex;
@@ -32,7 +33,30 @@
   background-color: white;
   color: black;
   box-shadow: 0 0 10px whitesmoke;
-  border-radius: 2px;
+  border-radius: 4px;
+  justify-content: center;
 }
 
 /*Home Section*/
+#home {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  height: 900px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  background: url("../img/img1.jpg") no-repeat center center/cover;
+  top: 0;
+  right: 0;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+  opacity: .8
+}
