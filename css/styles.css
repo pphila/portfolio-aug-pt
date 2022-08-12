@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
 
 /*navbar Section*/
 .navbar {
@@ -16,7 +22,6 @@
 }
 
 .navbar ul li {
-  font-family: century;
   font-size: 1.25rem;
   font-weight: bold;
 }
@@ -47,6 +52,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  color: aquamarine
 }
 
 #home::before {
@@ -58,5 +64,19 @@
   height: 900px;
   width: 100%;
   z-index: -1;
-  opacity: .8
+  opacity: .75
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid aquamarine;
+  border-radius: 4px;
+  width: 240px;
+  padding: 10px;
+  top: 20%;
+}
+
+h1 {
+  font-size: 3rem;
 }
