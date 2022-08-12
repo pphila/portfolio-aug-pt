@@ -1,0 +1,38 @@
+/*navbar Section*/
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li {
+  font-family: century;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  padding: 8px 60px;
+  margin: 10px;
+  color: lightgray;
+  transition: all .75s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px whitesmoke;
+  border-radius: 2px;
+}
+
+/*Home Section*/
