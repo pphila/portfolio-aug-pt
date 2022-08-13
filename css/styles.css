@@ -111,4 +111,13 @@ h1 {
 
 .bio h2 h3 {
   font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.bio p {
+  font-size: 1rem;
+}
+
+span {
+  color: rgb(20, 123, 67);
 }
