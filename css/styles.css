@@ -88,6 +88,7 @@ h1 {
 
 /*about me*/
 #about-me {
+  font-weight: 600;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -99,13 +100,15 @@ h1 {
 }
 
 .about-intro img {
-  width: 45%;
-  height: auto;
+  width: auto;
+  height: 640px;
+  min-height: 100px;
   padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .bio {
-  display: grid;
+  display: grid flex;
   padding: 10px;
 }
 
@@ -116,6 +119,21 @@ h1 {
 
 .bio p {
   font-size: 1rem;
+}
+
+.bio img {
+  width: auto;
+  height: 300;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  float: right;
+}
+
+.background {
+  color: #395B64;
+}
+
+.interests {
+  color: #A5C9CA;
 }
 
 span {
