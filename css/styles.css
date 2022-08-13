@@ -46,7 +46,7 @@ body {
   justify-content: center;
 }
 
-/*Home Section*/
+/*Home*/
 #home {
   display: flex;
   flex-direction: column;
@@ -138,4 +138,11 @@ h1 {
 
 span {
   color: rgb(20, 123, 67);
+}
+
+/*Portfolio*/
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
