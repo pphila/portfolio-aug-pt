@@ -142,7 +142,27 @@ span {
 
 /*Portfolio*/
 #portfolio {
-  display: flex;
+  display: grid flex;
   flex-direction: column;
   padding: 20px;
+  font-weight: 600;
+}
+
+.card {
+  font-size: 1rem;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card h2 {
+  color: #395B64; 
+}
+
+.card p {
+  font-size: 1rem;
+}
+
+.card li {
+  text-align: left
 }
