@@ -1,3 +1,4 @@
+/*universal*/
 * {
   margin: 0;
   padding: 0;
@@ -144,8 +145,15 @@ span {
 #portfolio {
   display: grid flex;
   flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.75);
   padding: 20px;
   font-weight: 600;
+  margin-bottom: 40px;
+}
+
+#portfolio h1 {
+  text-align: center;
+  color: #A5C9CA;
 }
 
 .card {
@@ -165,4 +173,14 @@ span {
 
 .card li {
   text-align: left
+}
+
+.card a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 0 10px lightgray;
+}
+
+.card a:visited {
+  text-decoration: none;
 }
