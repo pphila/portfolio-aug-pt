@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: 'Noto Sans', sans-serif;
+  font-family: 'Heebo', sans-serif;
 }
 
 /*navbar Section*/
@@ -47,8 +51,8 @@
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.75);
-  position: absolute;
-  height: 900px;
+  /*position: absolute;*/
+  height: 818px;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -79,4 +83,32 @@
 
 h1 {
   font-size: 3rem;
+  margin: 50px 0px;
+}
+
+/*about me*/
+#about-me {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.about-intro {
+  display: flex
+}
+
+.about-intro img {
+  width: 45%;
+  height: auto;
+  padding: 10px;
+}
+
+.bio {
+  display: grid;
+  padding: 10px;
+}
+
+.bio h2 h3 {
+  font-size: 2rem;
 }
